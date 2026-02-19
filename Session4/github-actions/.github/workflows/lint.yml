@@ -6,7 +6,7 @@
 
 name: Lint  # Workflow name: Displayed in GitHub Actions UI
 
-# TRIGGERS: When this workflow runs. Syntax: on: <event>: <configuration>
+# TRIGGERS: When this workflow runs. Syntax: on: <event>: <configuration> //
 on:
   push:  # Trigger on push events to main branch
     branches: [ main ]  # Array syntax using [ main ] - runs when code is pushed to main
